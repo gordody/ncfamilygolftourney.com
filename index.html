@@ -24,7 +24,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta name="author" content="Gyuri Ordody">
-  <meta name="version" content="20241002.1">
+  <meta name="version" content="20250226.1">
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@ncfamilygolftourney" />
@@ -32,7 +32,7 @@
   <meta property="og:url" content="https://www.ncfamilygolftourney.com/index.html" />
   <meta property="og:title" content="Northern California Golf Tourney" />
   <meta property="og:description" content="Unique Parent-Child Golf event in the Golde Gate Park Golf Course" />
-  <meta property="og:image" content="https://www.ncfamilygolftourney.com/gallery-images/2022-finalists.jpg" />
+  <meta property="og:image" content="https://www.ncfamilygolftourney.com/gallery-images/2024-finalists-focused.jpg" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -45,8 +45,8 @@
   <link href="src/3rd_party/fotorama-4.6.4/fotorama.css" rel="stylesheet">
   <script src="src/3rd_party/fotorama-4.6.4/fotorama.js"></script>
 
-  <link href="styles/default.css?v=20241002.1" rel="stylesheet">
-  <script src="src/main.js?v=20241002.1"></script>
+  <link href="styles/default.css?v=20250226.1" rel="stylesheet">
+  <script src="src/main.js?v=20250226.1"></script>
 
   <title>Northern California Family Golf Tournament</title>
 
@@ -97,7 +97,7 @@
   </div>
 
   <div class="main-container">
-    <img class="title-image" src="gallery-images/2023-finalists-2.jpg" alt="Title image - competitors" />
+    <img class="title-image" src="gallery-images/2024-finalists-focused.jpg" alt="Title image - competitors" />
     <div class="title-image-background"></div>
 
     <div class="visible-container home-container" id="home-location">
@@ -105,6 +105,25 @@
 
       <h3 class="article-container-title">Family Tournament News</h3>
       <div class="article-container">
+
+
+        <div class="info-article">
+          <h4>2025 Tournament - Tournament Dates</h4>
+          <div class="info-article-contents">
+
+            <p>02/25/2025</p>
+            <p>
+              We have the 2025 Tournament dates. The Tourney will be held at <a href="http://goldengateparkgolf.com/">Golden Gate Park Golf
+                Course</a>.<br/>
+              Qualifying round: September 13-14,<br/>
+              Brackets: September 20-21 &amp; September 27-28, 2025 (Saturdays &amp; Sundays).<br/>
+              Entries are due between August 1-30, 2025.
+              <br />
+              <a href="ical-20250913-20250928.ics">Add to Calendar</a>
+            </div>
+            </p>
+          </div>
+        </div>
 
         <div class="info-article">
           <h4>2024 Tournament - Final results</h4>
@@ -120,6 +139,7 @@
           </div>
         </div>
 
+        <!--
         <div class="info-article">
           <h4>2024 Tournament - Semifinal and Final Rounds</h4>
           <div class="info-article-contents">
@@ -133,7 +153,7 @@
             </p>
           </div>
         </div>
-
+        
         <div class="info-article">
           <h4>2024 Tournament - Elimination Rounds</h4>
           <div class="info-article-contents">
@@ -170,6 +190,7 @@
             <a href="ical-20240914-20240929.ics">Add to Calendar</a>
           </div>
         </div>
+        -->
 
         <!--
         <div class="info-article">
@@ -237,7 +258,7 @@
         <h3 class="article-container-title">History</h3>
         <div class="article-container">
           <div class="info-article">
-            <img class="info-image" src="gallery-images/2023-champs.jpg" alt="Current Champions" />
+            <img class="info-image" src="gallery-images/2024-champs.jpg" alt="Current Champions" />
             <p>
               Originally known as the “Father and Son”, this alternate shot, match play tournament
               was the brain child of legendary San Francisco sports writer, Art Rosenbaum.
@@ -249,7 +270,7 @@
               due to financial problems, the tournament was restarted in the fall of 2007 and
               continues to this day. Past participants include U. S. Open Champions Ken Venturi
               and Johnny Miller; former San Francisco Amateur Champion John Susko;
-              current LPGA star Dorthy Delasin; former San Francisco Champion Tom Culligan;
+              LPGA star Dorthy Delasin; former San Francisco Champion Tom Culligan;
               and former mayor Art Agnos.
             </p>
           </div>
@@ -368,6 +389,7 @@
             <li>2021 - Panos Gogonas &amp; Yanni</li>
             <li>2022 - Joe Hayden &amp; Jack</li>
             <li>2023 - Joe Root &amp; Brody ^</li>
+            <li>2024 - Arthur Hsu &amp; Jay</li>
           </ul>
           <div>
              * Marina GC<br/>
@@ -464,6 +486,7 @@
             <li>2021 - Mark Molumphy & Thomas - 58</li>
             <li>2022 - Gus Gutierrez & Anthony - 60</li>
             <li>2023 - Gus Gutierrez & Anthony - 55 (Fleming GC)</li>
+            <li>2024 - Arthur Hsu &amp; Jay - 57</li>
           </ul>
         </div>
         <div class="past-aces-section">
@@ -814,14 +837,14 @@
       // const itemsBaseURL = "https://s3.us-west-2.amazonaws.com/ncfamilygolftourney.com/";
       // const itemsBaseURL = "http://localhost:8080/";
       $(document).ready(async function () {
-        const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20241002.1`);
+        const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20250226.1`);
         const responseData = await response.json();
         const setOfYears = {};
         const allData = [];
         for (const d of responseData) {
           const dataItem = {
-            img: `gallery-images/${d}?v=20241002.1`,
-            thumb: `gallery-thumbs/${d}?v=20241002.1`,
+            img: `gallery-images/${d}?v=20250226.1`,
+            thumb: `gallery-thumbs/${d}?v=20250226.1`,
             title: d
           };
           allData.push(dataItem);

@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:Northern California Family Golf Tourney
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 15.3//EN
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;VALUE=DATE:20250915
+X-APPLE-CREATOR-TEAM-IDENTITY:0000000000
+UID:549B4DE5-7E52-4405-A444-94A1C23E15CA
+DTSTAMP:20250227T000749Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-MAPKIT-HANDLE=CAES+wIIrk0Q
+ 1q28o/qyvccGGhIJ+KSEwW/iQkARAACA62ugXsAipQEKDVVuaXRlZCBTdGF0ZXMSAlVTGgpD
+ YWxpZm9ybmlhIgJDQSoNU2FuIEZyYW5jaXNjbzINU2FuIEZyYW5jaXNjbzoFOTQxMjFSCDQ3
+ dGggQXZlWgM5NzBiDDk3MCA0N3RoIEF2ZYoBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoB
+ EVJpY2htb25kIERpc3RyaWN0igEOT3V0ZXIgUmljaG1vbmQqHEdvbGRlbiBHYXRlIFBhcmsg
+ R29sZiBDb3Vyc2UyDDk3MCA0N3RoIEF2ZTIYU2FuIEZyYW5jaXNjbywgQ0EgIDk0MTIxMg1V
+ bml0ZWQgU3RhdGVzOC9aWQokCNatvKP6sr3HBhISCfikhMFv4kJAEQAAgOtroF7AGK5NkAMB
+ oh8wCNatvKP6sr3HBhokChxHb2xkZW4gR2F0ZSBQYXJrIEdvbGYgQ291cnNlEAAqAmVu;X-A
+ PPLE-RADIUS=141.1748504638672;X-APPLE-REFERENCEFRAME=0;X-TITLE="Golden G
+ ate Park Golf Course\n970 47th Ave, San Francisco, CA  94121, United Sta
+ tes":geo:37.769036,-122.506587
+LOCATION:Golden Gate Park Golf Course\n970 47th Ave\, San Francisco\, CA
+   94121\, United States
+X-APPLE-CREATOR-IDENTITY:com.apple.calendar
+URL;VALUE=URI:https://ncfamilygolftourney.com/entry-form-tee-times/
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Northern California Family Golf Tourney
+DTSTART;VALUE=DATE:20250913
+LAST-MODIFIED:20250226T025502Z
+CREATED:20250226T025502Z
+RRULE:FREQ=WEEKLY;UNTIL=20250928
+BEGIN:VALARM
+UID:43AF5243-61AE-43AE-A129-BCCD2FB41460
+X-WR-ALARMUID:43AF5243-61AE-43AE-A129-BCCD2FB41460
+TRIGGER:-PT10M
+DESCRIPTION:Northern California Family Golf Tourney:\n The Tourney will be held at <a href="http://goldengateparkgolf.com/">Golden Gate Park Golf
+                Course</a>
+              Qualifying round: September 13-14,\n
+              Brackets: September 20-21 &amp; September 27-28, 2025 (Saturdays & Sundays).\n
+              Entries are due between August 1-30, 2025.
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+UID:653B7BE1-3FF8-415D-8413-CADC1C4CBD4A
+X-WR-ALARMUID:653B7BE1-3FF8-415D-8413-CADC1C4CBD4A
+TRIGGER:-PT15H
+DESCRIPTION:Northern California Family Golf Tourney:\n The Tourney will be held at <a href="http://goldengateparkgolf.com/">Golden Gate Park Golf
+                Course</a>
+              Qualifying round: September 13-14,\n
+              Brackets: September 20-21 &amp; September 27-28, 2025 (Saturdays & Sundays).\n
+              Entries are due between August 1-30, 2025.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
