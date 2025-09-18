@@ -45,8 +45,8 @@
   <link href="src/3rd_party/fotorama-4.6.4/fotorama.css" rel="stylesheet">
   <script src="src/3rd_party/fotorama-4.6.4/fotorama.js"></script>
 
-  <link href="styles/default.css?v=20250518.1" rel="stylesheet">
-  <script src="src/main.js?v=20250518.1"></script>
+  <link href="styles/default.css?v=20250916.1" rel="stylesheet">
+  <script src="src/main.js?v=20250916.1"></script>
 
   <title>Northern California Family Golf Tournament</title>
 
@@ -836,14 +836,14 @@
     // const itemsBaseURL = "https://s3.us-west-2.amazonaws.com/ncfamilygolftourney.com/";
     // const itemsBaseURL = "http://localhost:8080/";
     $(document).ready(async function () {
-      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20250518.1`);
+      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20250916.1`);
       const responseData = await response.json();
       const setOfYears = {};
       const allData = [];
       for (const d of responseData) {
         const dataItem = {
-          img: `gallery-images/${d}?v=20250518.1`,
-          thumb: `gallery-thumbs/${d}?v=20250518.1`,
+          img: `gallery-images/${d}?v=20250916.1`,
+          thumb: `gallery-thumbs/${d}?v=20250916.1`,
           title: d
         };
         allData.push(dataItem);

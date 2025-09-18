@@ -260,6 +260,10 @@ h6
   font-size: 0.8em;
 }
 
+.tee-time-table thead {
+  background-color: rgb(188, 192, 218);
+}
+
 .tee-time-table td {
   padding-left: 20px;
   padding-right: 20px;
