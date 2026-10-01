@@ -24,7 +24,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta name="author" content="Gyuri Ordody">
-  <meta name="version" content="20260928.1">
+  <meta name="version" content="20261001.1">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@ncfamilygolftourney">
@@ -45,8 +45,8 @@
   <link href="src/3rd_party/fotorama-4.6.4/fotorama.css" rel="stylesheet">
   <script src="src/3rd_party/fotorama-4.6.4/fotorama.js"></script>
 
-  <link href="styles/default.css?v=20260928.1" rel="stylesheet">
-  <script src="src/main.js?v=20260928.1"></script>
+  <link href="styles/default.css?v=20261001.1" rel="stylesheet">
+  <script src="src/main.js?v=20261001.1"></script>
 
   <title>Northern California Family Golf Tournament</title>
 
@@ -117,7 +117,7 @@
             <p>09/28/2026</p>
             <p>
               The final results are posted on the <a href="#results" class="menu-item" data-target="result-entry-tee-times-location">Results, Entry Form &amp;
-                Tee Times</a> page. Congratulations to the winners!
+                Tee Times</a> page. Congratulations to the champions Bob Callan + Geoff and bracket winners!
             </p>
           </div>
         </div>
@@ -337,6 +337,7 @@
           <li>2023 - Joe Root &amp; Brody ^</li>
           <li>2024 - Arthur Hsu &amp; Jay</li>
           <li>2025 - Masato Nakagawa &amp; Koji</li>
+          <li>2026 - Bob Callan &amp; Geoff</li>
         </ul>
         <div>
           * Marina GC<br>
@@ -435,6 +436,7 @@
           <li>2023 - Gus Gutierrez &amp; Anthony - 55 (Fleming GC)</li>
           <li>2024 - Arthur Hsu &amp; Jay - 57</li>
           <li>2025 - Farshad Mashayekhi &amp; Daniel - 56</li>
+          <li>2026 - Tony Conrardy &amp; Dillon Stefani - 56</li>
         </ul>
       </div>
       <div class="past-aces-section">
@@ -783,7 +785,6 @@
       </div>
     </div>
 
-  </div>
 
   <div class="footer">
     <div class="footer-info-container">
@@ -834,14 +835,14 @@
     // const itemsBaseURL = "https://s3.us-west-2.amazonaws.com/ncfamilygolftourney.com/";
     // const itemsBaseURL = "http://localhost:8080/";
     $(document).ready(async function () {
-      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20260928.1`);
+      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20261001.1`);
       const responseData = await response.json();
       const setOfYears = {};
       const allData = [];
       for (const d of responseData) {
         const dataItem = {
-          img: `gallery-images/${d}?v=20260928.1`,
-          thumb: `gallery-thumbs/${d}?v=20260928.1`,
+          img: `gallery-images/${d}?v=20261001.1`,
+          thumb: `gallery-thumbs/${d}?v=20261001.1`,
           title: d
         };
         allData.push(dataItem);
