@@ -24,7 +24,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta name="author" content="Gyuri Ordody">
-  <meta name="version" content="20261001.1">
+  <meta name="version" content="20261003.1">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@ncfamilygolftourney">
@@ -32,7 +32,7 @@
   <meta property="og:url" content="https://www.ncfamilygolftourney.com/index.html">
   <meta property="og:title" content="Northern California Golf Tourney">
   <meta property="og:description" content="Unique Parent-Child Golf event in the Golde Gate Park Golf Course">
-  <meta property="og:image" content="https://www.ncfamilygolftourney.com/gallery-images/2025-IMG_2006_champs_all.jpg">
+  <meta property="og:image" content="https://www.ncfamilygolftourney.com/gallery-images/2026-IMG_6589_all-winners.jpg">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -45,8 +45,8 @@
   <link href="src/3rd_party/fotorama-4.6.4/fotorama.css" rel="stylesheet">
   <script src="src/3rd_party/fotorama-4.6.4/fotorama.js"></script>
 
-  <link href="styles/default.css?v=20261001.1" rel="stylesheet">
-  <script src="src/main.js?v=20261001.1"></script>
+  <link href="styles/default.css?v=20261003.1" rel="stylesheet">
+  <script src="src/main.js?v=20261003.1"></script>
 
   <title>Northern California Family Golf Tournament</title>
 
@@ -101,7 +101,7 @@
   </div>
 
   <div class="main-container">
-    <img class="title-image" src="gallery-images/2025-IMG_2006_champs_all.jpg" alt="Title image - competitors">
+    <img class="title-image" src="gallery-images/2026-IMG_6589_all-winners.jpg" alt="Title image - competitors">
     <div class="title-image-background"></div>
 
     <div class="visible-container home-container" id="home-location">
@@ -203,7 +203,7 @@
       <h3 class="article-container-title">History</h3>
       <div class="article-container">
         <div class="info-article">
-          <img class="info-image" src="gallery-images/2025-IMG_2045_champs.jpg" alt="Current Champions">
+          <img class="info-image" src="gallery-images/2026-IMG_6584_champs.jpg" alt="Current Champions">
           <p>
             Originally known as the &quot;Father and Son&quot;, this alternate shot, match play tournament
             was the brain child of legendary San Francisco sports writer, Art Rosenbaum.
@@ -835,14 +835,14 @@
     // const itemsBaseURL = "https://s3.us-west-2.amazonaws.com/ncfamilygolftourney.com/";
     // const itemsBaseURL = "http://localhost:8080/";
     $(document).ready(async function () {
-      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20261001.1`);
+      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20261003.1`);
       const responseData = await response.json();
       const setOfYears = {};
       const allData = [];
       for (const d of responseData) {
         const dataItem = {
-          img: `gallery-images/${d}?v=20261001.1`,
-          thumb: `gallery-thumbs/${d}?v=20261001.1`,
+          img: `gallery-images/${d}?v=20261003.1`,
+          thumb: `gallery-thumbs/${d}?v=20261003.1`,
           title: d
         };
         allData.push(dataItem);

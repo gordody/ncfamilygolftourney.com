@@ -3,3 +3,5 @@ node-http-server -p 8080
 
 # con convert images to thumbnails, in the thumbnail folder, run
 magick mogrify  -format jpg -path . -thumbnail 100x100 *.jpg
+# same for just 2026 images:
+magick mogrify  -format jpg -path . -thumbnail 100x100 2026*.jpg

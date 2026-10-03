@@ -70,14 +70,6 @@ h3 {
   text-decoration: none;
 }
 
-.title-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-}
-
-
 .header-menu {
   background-color: #e4c02d;
   padding: 1px;
@@ -141,7 +133,11 @@ h3 {
 
 
 body.body-home-location .title-image {
-  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
 }
 
 body.body-home-location .title-image-background {
@@ -180,7 +176,7 @@ body.body-content-location .title-image-background {
 .info-image {
   float: left;
   padding: 0 20px 20px 0;
-  width: 30%;
+  width: 50%;
 }
 
 .info-article-contents p {
