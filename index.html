@@ -24,7 +24,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta name="author" content="Gyuri Ordody">
-  <meta name="version" content="20261003.1">
+  <meta name="version" content="20261004.1">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@ncfamilygolftourney">
@@ -45,8 +45,8 @@
   <link href="src/3rd_party/fotorama-4.6.4/fotorama.css" rel="stylesheet">
   <script src="src/3rd_party/fotorama-4.6.4/fotorama.js"></script>
 
-  <link href="styles/default.css?v=20261003.1" rel="stylesheet">
-  <script src="src/main.js?v=20261003.1"></script>
+  <link href="styles/default.css?v=20261004.1" rel="stylesheet">
+  <script src="src/main.js?v=20261004.1"></script>
 
   <title>Northern California Family Golf Tournament</title>
 
@@ -203,7 +203,7 @@
       <h3 class="article-container-title">History</h3>
       <div class="article-container">
         <div class="info-article">
-          <img class="info-image" src="gallery-images/2026-IMG_6584_champs.jpg" alt="Current Champions">
+          <img class="info-image" src="gallery-images/2026-champs_only.jpg" alt="Current Champions">
           <p>
             Originally known as the &quot;Father and Son&quot;, this alternate shot, match play tournament
             was the brain child of legendary San Francisco sports writer, Art Rosenbaum.
@@ -505,6 +505,12 @@
           <li><span class="ace-winner-name">2025 - Pat Quinn</span><span class="ace-hole-distance-club">7th hole
               -
               126 yards - 8 iron</span></li>
+          <li><span class="ace-winner-name">2026 - Dan Faulkner</span><span class="ace-hole-distance-club">4th hole
+              -
+              112 yards - Pitching wedge</span></li>
+          <li><span class="ace-winner-name">2026 - Taara Cherukuri</span><span class="ace-hole-distance-club">2nd hole
+              -
+              110 yards - 7 iron</span></li>
         </ul>
       </div>
     </div>
@@ -835,14 +841,14 @@
     // const itemsBaseURL = "https://s3.us-west-2.amazonaws.com/ncfamilygolftourney.com/";
     // const itemsBaseURL = "http://localhost:8080/";
     $(document).ready(async function () {
-      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20261003.1`);
+      const response = await window.fetch(`${itemsBaseURL}imagelist.json?v=20261004.1`);
       const responseData = await response.json();
       const setOfYears = {};
       const allData = [];
       for (const d of responseData) {
         const dataItem = {
-          img: `gallery-images/${d}?v=20261003.1`,
-          thumb: `gallery-thumbs/${d}?v=20261003.1`,
+          img: `gallery-images/${d}?v=20261004.1`,
+          thumb: `gallery-thumbs/${d}?v=20261004.1`,
           title: d
         };
         allData.push(dataItem);
